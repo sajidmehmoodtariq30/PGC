@@ -179,8 +179,8 @@ const ITDashboard = () => {
             </div>
           )}
           {showModal && (
-            <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
-              <div className="w-screen h-screen bg-white/70 backdrop-blur-2xl shadow-2xl border-0 flex flex-col overflow-hidden">
+            <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[9999] p-4">
+              <div className="w-full max-w-4xl h-[90vh] bg-white/95 backdrop-blur-2xl rounded-3xl shadow-2xl border border-border/50 flex flex-col overflow-hidden">
                 <div className="bg-gradient-to-r from-primary to-accent text-white p-6 shadow-lg flex justify-between items-center">
                   <h3 className="text-2xl font-bold font-[Sora,Inter,sans-serif]">Register Student</h3>
                   <Button
